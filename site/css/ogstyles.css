@@ -633,10 +633,11 @@ a.arrow-link:hover {
 	color: #fff;
 }
 .colord {
-	background: #161616;
+	background: #00b;
+	opacity:0.8;
 }
 .colord p {
-	color: #797979;
+	color: #f9f9f9;
 }
 .colord h3 {
 	color: #fff;
@@ -883,6 +884,7 @@ footer {
 	border-top: 1px solid #303030;
 	padding: 35px 0 15px;
 	background: #161616;
+	opacity:0.9;
 }
 .social a:hover {
 	color: #818181;
@@ -958,7 +960,40 @@ footer {
 }
 }
 
+.main-title{
+	width:100vw;
+	height:200px;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    font-family: 'Khalijaka', helvetica, arial;
+    font-weight: lighter;
+    font-size: 3.5em;
+    color: #fff;
+    background-color: none;
+    text-align: center;
+    float:left;
+    overflow: hidden;
+}
+
+
 @media (max-width: 480px) {
+
+.main-title{
+	width:100vw;
+	height:200px;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    font-family: 'Khalijaka', helvetica, arial;
+    font-weight: lighter;
+    font-size: 2em;
+    color: #fff;
+    background-color: none;
+    text-align: center;
+    float:left;
+    overflow: hidden;
+}
 .banner-container {
 	height: 500px;
 }
@@ -1003,6 +1038,22 @@ footer {
 }
 
 @media (max-width: 320px) {
+
+.main-title{
+	width:100vw;
+	height:200px;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    font-family: 'Khalijaka', helvetica, arial;
+    font-weight: lighter;
+    font-size: 1em;
+    color: #fff;
+    background-color: none;
+    text-align: center;
+    float:left;
+    overflow: hidden;
+}
 .banner-container {
 }
 .grid .text-content {
